@@ -1,44 +1,62 @@
 import React from "react";
+import Card from "./cards";
+import contacts from "./Resume-Detail";
 
 function Resume() {
 	return (
-		<div className="Resume row">
-			<div className="column ">
-				<div className="resume-header">
-					<h2>Work Experience</h2>
-				</div>
-				<div className="work-experience">
-					<ul>
-						<div className="resumue-header-description row">
-							<div className="resumue-header-description column">
-								<li>
-									<h4>Viasat</h4>
-								</li>
-							</div>
-							<div className="resumue-header-description column">
-								<p className="work-dates">(Feb '19 - Present)</p>
-							</div>
-						</div>
+		<div className="row">
+			<div className="column">
+				<div>
+					<h1 className="heading">Work Experience</h1>
 
-						<li>
-							<h4>Viasat</h4>
-						</li>
-					</ul>
+					{contacts.map((contact) => {
+						return <Card name={contact.name} />;
+					})}
+
+					{/* <Card
+						name={contacts[0].name}
+						img={contacts[0].imgURL}
+						tel={contacts[0].phone}
+						email={contacts[0].email}
+						jobDescription={contacts[0].jobDescription}
+					/>
+					<Card
+						name={contacts[1].name}
+						img={contacts[1].imgURL}
+						tel={contacts[1].phone}
+						email={contacts[1].email}
+					/>
+					<Card
+						name={contacts[2].name}
+						img={contacts[2].imgURL}
+						tel={contacts[2].phone}
+						email={contacts[2].email}
+					/> */}
 				</div>
 			</div>
-			<div className="column ">
-				<div className="resume-header">
-					<h2>Education</h2>
-				</div>
-				<div className="work-experience">
-					<ul>
-						<li>
-							<h4>The Pennsylvania State University</h4>
-						</li>
-						<li>
-							<h4>Viasat</h4>
-						</li>
-					</ul>
+			<div className="column">
+				<div>
+					<h1 className="heading">Work Experience</h1>
+
+					{/* <Card
+						name={contacts[0].name}
+						img={contacts[0].imgURL}
+						tel={contacts[0].phone}
+						email={contacts[0].email}
+						jobDescription={contacts[0].jobDescription}
+					/>
+					<Card
+						name={contacts[1].name}
+						img={contacts[1].imgURL}
+						tel={contacts[1].phone}
+						email={contacts[1].email}
+					/>
+					<Card
+						name={contacts[2].name}
+						img={contacts[2].imgURL}
+						tel={contacts[2].phone}
+						email={contacts[2].email}
+					/> */}
 				</div>
 			</div>
 		</div>
