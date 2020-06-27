@@ -18,6 +18,24 @@
                     margin: 0 10em;
                 }
                 
+                .float {
+                    float: left;
+                }
+                
+                .name {
+                    color: White;
+                    font-weight: bold;
+                }
+                
+                .time {
+                    font-size: 1.4rem;
+                }
+                
+                .jobDescription {
+                    font-size: 1.8rem;
+                    ;
+                }
+                
                 .profile-img {
                     display: block;
                     width: 400px;
@@ -30,7 +48,7 @@
                 }
                 
                 #root {
-                    background-color: black;
+                    background-color: #252525;
                 }
                 
                 p {
@@ -95,9 +113,21 @@
                     flex-wrap: wrap;
                 }
                 
+                .Card {
+                    padding: 0 10% 5%;
+                }
+                
                 .column {
                     flex: 50%;
                     padding: 20px;
+                }
+                
+                .workcolumn {
+                    flex: 50%;
+                }
+                
+                .workcolumns {
+                    position: absolute;
                 }
                 
                 .about-me {
@@ -112,6 +142,19 @@
                 .work-dates {
                     text-align: left;
                     float: left;
+                }
+                
+                li {
+                    text-align: center;
+                    list-style-position: inside;
+                }
+                
+                .dates {
+                    padding-top: 7%;
+                }
+                
+                .heading {
+                    color: white;
                 }
                 
                 @media screen and (max-width: 1200px) {

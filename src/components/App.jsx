@@ -4,6 +4,8 @@ import Footer from "./Footer";
 import Note from "./Note";
 import AboutMe from "./AboutMe";
 import Resume from "./Resume";
+import Typist from "react-typist";
+import Typist1 from "./typistExample";
 
 function App() {
 	return (
@@ -12,6 +14,7 @@ function App() {
 			<AboutMe />
 			<Resume />
 			<Footer />
+			<Typist1 />
 		</div>
 	);
 }
