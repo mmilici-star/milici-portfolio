@@ -9,8 +9,8 @@ import AnimatedText from "./AnimatedText";
 function App() {
 	return (
 		<div className="app">
-			<AnimatedText />
 			<Header />
+			<AnimatedText />
 			<AboutMe />
 			<Resume />
 			<Footer />

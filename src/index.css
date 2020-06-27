@@ -35,6 +35,12 @@ header {
     font-size: 1.8rem;
 }
 
+.aboutme {
+    color: white;
+    text-align: center;
+    padding: 5% 0;
+}
+
 .profile-img {
     display: block;
     width: 400px;
