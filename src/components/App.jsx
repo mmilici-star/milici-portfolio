@@ -4,17 +4,16 @@ import Footer from "./Footer";
 import Note from "./Note";
 import AboutMe from "./AboutMe";
 import Resume from "./Resume";
-import Typist from "react-typist";
-import Typist1 from "./typistExample";
+import AnimatedText from "./AnimatedText";
 
 function App() {
 	return (
 		<div className="app">
+			<AnimatedText />
 			<Header />
 			<AboutMe />
 			<Resume />
 			<Footer />
-			<Typist1 />
 		</div>
 	);
 }
