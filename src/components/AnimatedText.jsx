@@ -6,28 +6,28 @@ function AboutMe() {
 	const currentYear = new Date().getFullYear() - 2018;
 
 	return (
-		<div className="aboutMe row">
+		<div className="row">
 			<div className="column left">
 				<img className="profile-img" src={Images} alt="Girl in a jacket" />
 			</div>
-			<div className="AnimatedTest column right about-me about-me-description">
-				<h1>Hello my name is Matt Milici</h1>
-				<p>
+			<div className="column animated-text">
+				<h1 className="matt-milici"> Matt Milici</h1>
+				<p className="im-a">
 					I am a{" "}
 					<Typical
 						className="Typical"
 						loop={Infinity}
 						wrapper="b"
 						steps={[
-							"developer",
-							1000,
-							"Friend",
-							1000,
 							"Financial Analyst",
 							1000,
-							"Will Dempster Agent",
+							"Web Developer",
 							1000,
-							"Best Friend",
+							"Will Dempster's Agent?",
+							1000,
+							"Surfer",
+							1000,
+							"Great Friend",
 							1000,
 						]}
 					/>

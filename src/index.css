@@ -41,19 +41,42 @@ header {
     padding: 5% 0;
 }
 
+.animated-text {
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.animated {
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+
 .profile-img {
     display: block;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     background: #e6e7ed;
     border-radius: 50%;
     border: 3px solid white;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    margin: auto;
+    left: 9%;
+}
+
+.matt-milici {
+    font-size: 10rem;
+    font-weight: bold;
 }
 
 .Typical {
     color: Blue;
+    font-size: 2rem;
+}
+
+.im-a {
+    font-size: 2rem;
 }
 
 #root {
@@ -117,6 +140,10 @@ p {
     display: block;
 }
 
+.opener {
+    color: white;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -143,6 +170,12 @@ p {
     padding-top: 6%;
 }
 
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
 .work-image {
     width: 10%;
     height: auto;
@@ -166,6 +199,19 @@ li {
     color: white;
 }
 
+.about-me-description {
+    color: white;
+    position: relative;
+    margin: auto;
+}
+
+.animated-text {
+    color: white;
+    position: relative;
+    margin: auto;
+    right: 5;
+}
+
 @media screen and (max-width: 1200px) {
     .column {
         flex: 100%;
@@ -179,6 +225,17 @@ li {
     }
     .app {
         margin: 0 10em;
+    }
+    .profile-img {
+        display: block;
+        width: 350px;
+        height: 350px;
+        background: #e6e7ed;
+        border-radius: 50%;
+        border: 3px solid white;
+        position: relative;
+        margin: auto;
+        left: 9%;
     }
 }
 
