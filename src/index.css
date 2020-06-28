@@ -48,9 +48,8 @@ header {
 }
 
 .animated {
-    position: relative;
-    top: 150px;
-    left: 250px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .profile-img {
@@ -65,9 +64,36 @@ header {
     left: 9%;
 }
 
+.about-me-div {
+    position: relative;
+}
+
+.header-tags {
+    color: white;
+    padding: 4% 0;
+    text-align: center;
+    font-size: 3em;
+}
+
+.cartoon {
+    display: block;
+    width: 250px;
+    height: 560px;
+    background: #e6e7ed;
+    border-radius: 10%;
+    border: 3px solid white;
+    position: relative;
+    margin: auto;
+    left: 5%;
+}
+
 .matt-milici {
     font-size: 10rem;
     font-weight: bold;
+}
+
+.collage {
+    position: relative;
 }
 
 .Typical {
@@ -203,6 +229,8 @@ li {
     color: white;
     position: relative;
     margin: auto;
+    line-height: 1.5em;
+    padding: 2%;
 }
 
 .animated-text {
@@ -233,9 +261,13 @@ li {
         background: #e6e7ed;
         border-radius: 50%;
         border: 3px solid white;
-        position: relative;
-        margin: auto;
-        left: 9%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0%;
+    }
+    .matt-milici {
+        font-size: 4rem;
+        text-align: center;
     }
 }
 
@@ -258,6 +290,11 @@ li {
         border: 3px solid white;
         margin-left: auto;
         margin-right: auto;
+        left: 0%;
+    }
+    .matt-milici {
+        font-size: 4rem;
+        text-align: center;
     }
 }
 

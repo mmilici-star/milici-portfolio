@@ -6,7 +6,7 @@ function AboutMe() {
 	const currentYear = new Date().getFullYear() - 2018;
 
 	return (
-		<div className="row">
+		<div className="row animated">
 			<div className="column left">
 				<img className="profile-img" src={Images} alt="Girl in a jacket" />
 			</div>
