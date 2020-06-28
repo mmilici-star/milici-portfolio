@@ -10,7 +10,7 @@ function Resume() {
 		<div className="row">
 			<div className="column">
 				<div>
-					<h1 className="heading">Work Experience</h1>
+					<h1 className="header-tags">Work Experience</h1>
 
 					{workExperiences.map((workExperience) => {
 						return (
@@ -26,7 +26,7 @@ function Resume() {
 			</div>
 			<div className="column">
 				<div>
-					<h1 className="heading">Education</h1>
+					<h1 className="header-tags">Education</h1>
 
 					{EducationExperiences.map((EducationExperience) => {
 						return (

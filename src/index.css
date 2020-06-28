@@ -27,14 +27,6 @@ header {
     font-weight: bold;
 }
 
-.time {
-    font-size: 1.4rem;
-}
-
-.jobDescription {
-    font-size: 1.8rem;
-}
-
 .aboutme {
     color: white;
     text-align: center;
@@ -68,9 +60,57 @@ header {
     position: relative;
 }
 
+
+/* ----------- Work Experience Card ------------ */
+
+.work-experience-div {
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.color {
+    color: white;
+}
+
+.title {
+    margin: 2px 0;
+}
+
+.company {
+    margin: 0px 0;
+    float: left;
+    padding-right: 10px;
+}
+
+.company-time {
+    margin-right: 5px;
+    position: relative;
+    margin-bottom: 2px;
+    left: 50px;
+}
+
+.date {
+    font-size: 1em;
+    position: relative;
+    bottom: 0px;
+}
+
+.time {
+    font-size: 1.4rem;
+}
+
+.jobDescription {
+    font-size: 1.8rem;
+    clear: both;
+    width: 95%;
+}
+
+
+/* ----------- Work Experience Card ------------ */
+
 .header-tags {
     color: white;
-    padding: 4% 0;
+    padding: 2% 0;
     text-align: center;
     font-size: 3em;
 }
@@ -210,11 +250,6 @@ p {
 .work-dates {
     text-align: left;
     float: left;
-}
-
-li {
-    text-align: center;
-    list-style-position: inside;
 }
 
 .dates {
