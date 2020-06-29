@@ -45,7 +45,7 @@ header {
 
 .animated {
     padding-top: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 
 .profile-img {
@@ -58,11 +58,6 @@ header {
     position: relative;
     margin: auto;
     left: 9%;
-}
-
-.about-me-div {
-    position: relative;
-    padding-bottom: 2%;
 }
 
 .contact-me {
@@ -120,6 +115,37 @@ header {
 
 /* ----------- Work Experience Card ------------ */
 
+
+/* ----------- About Me ------------ */
+
+.about-me-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding: 0 5%;
+}
+
+.cartoon {
+    padding-left: 10%;
+    margin: auto;
+    height: 35%;
+    width: 35%;
+}
+
+.about-me {
+    padding-left: 10%;
+}
+
+.about-me-description {
+    font-size: 1.5em;
+    padding-bottom: 2%;
+    margin: auto;
+}
+
+
+/* ----------- About Me ------------ */
+
 .header-tags {
     color: white;
     padding: 2% 0;
@@ -127,26 +153,9 @@ header {
     font-size: 3em;
 }
 
-.cartoon {
-    display: block;
-    width: 250px;
-    height: 560px;
-    background: #e6e7ed;
-    border-radius: 10%;
-    border: 3px solid white;
-    float: left;
-    left: 30%;
-    margin-right: 15%;
-}
-
 .matt-milici {
     font-size: 10rem;
     font-weight: bold;
-}
-
-.collage {
-    position: relative;
-    width: 40%;
 }
 
 .Typical {
@@ -245,13 +254,6 @@ p {
     position: absolute;
 }
 
-.about-me {
-    padding-top: 4%;
-    padding-left: 0;
-    width: 60%;
-    margin: auto;
-}
-
 .clearfix::after {
     content: " ";
     display: block;
@@ -276,14 +278,6 @@ p {
     color: white;
 }
 
-.about-me-description {
-    color: white;
-    position: relative;
-    margin: auto;
-    line-height: 1.5em;
-    padding: 2%;
-}
-
 .animated-text {
     color: white;
     position: relative;
@@ -301,7 +295,6 @@ p {
     .about-me-description {
         font-size: 2.3rem;
         line-height: 1.5em;
-        padding-top: 2%;
     }
     .app {
         margin: 0 10em;
@@ -350,7 +343,7 @@ p {
     }
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1346px) {
     .column {
         flex: 100%;
         text-align: center;
@@ -359,7 +352,6 @@ p {
     .about-me-description {
         font-size: 2.3rem;
         line-height: 1.5em;
-        padding-top: 2%;
     }
     .app {
         margin: 0 10em;
@@ -376,7 +368,7 @@ p {
         left: 0%;
     }
     .matt-milici {
-        font-size: 7rem;
+        font-size: 8rem;
         text-align: center;
     }
 }

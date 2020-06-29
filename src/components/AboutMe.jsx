@@ -5,12 +5,11 @@ function AboutMe() {
 	const currentYear = new Date().getFullYear() - 2018;
 
 	return (
-		<div className="about-me-div">
+		<>
 			<h3 className="header-tags">About Me</h3>
-			<div className="">
-				<div className="collage">
-					<img className="cartoon" src={Images} alt="Cartoon of Matt" />
-				</div>
+			<div className="about-me-div">
+				<img className="cartoon" src={Images} alt="Cartoon of Matt" />
+
 				<div className="about-me">
 					<p className="about-me-description">Hey, What's up!</p>
 					<p className="about-me-description">
@@ -26,7 +25,7 @@ function AboutMe() {
 					</p>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 }
 export default AboutMe;
