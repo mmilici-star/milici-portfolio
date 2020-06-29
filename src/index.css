@@ -39,8 +39,12 @@ header {
     margin-right: 25%;
 }
 
+.resume {
+    clear: both;
+}
+
 .animated {
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 5%;
 }
 
@@ -58,6 +62,11 @@ header {
 
 .about-me-div {
     position: relative;
+    padding-bottom: 2%;
+}
+
+.contact-me {
+    color: white;
 }
 
 
@@ -66,6 +75,8 @@ header {
 .work-experience-div {
     position: relative;
     margin-bottom: 10%;
+    clear: both;
+    overflow: auto;
 }
 
 .color {
@@ -103,6 +114,7 @@ header {
     font-size: 1.8rem;
     clear: both;
     width: 95%;
+    overflow: hidden;
 }
 
 
@@ -122,9 +134,9 @@ header {
     background: #e6e7ed;
     border-radius: 10%;
     border: 3px solid white;
-    position: relative;
-    margin: auto;
-    left: 5%;
+    float: left;
+    left: 30%;
+    margin-right: 15%;
 }
 
 .matt-milici {
@@ -134,10 +146,11 @@ header {
 
 .collage {
     position: relative;
+    width: 40%;
 }
 
 .Typical {
-    color: Blue;
+    color: yellow;
     font-size: 2rem;
 }
 
@@ -233,7 +246,10 @@ p {
 }
 
 .about-me {
-    padding-top: 6%;
+    padding-top: 4%;
+    padding-left: 0;
+    width: 60%;
+    margin: auto;
 }
 
 .clearfix::after {
@@ -272,10 +288,11 @@ p {
     color: white;
     position: relative;
     margin: auto;
-    right: 5;
+    left: 2%;
+    bottom: 2%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
     .column {
         flex: 100%;
         text-align: center;
@@ -329,6 +346,37 @@ p {
     }
     .matt-milici {
         font-size: 4rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .column {
+        flex: 100%;
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+    .about-me-description {
+        font-size: 2.3rem;
+        line-height: 1.5em;
+        padding-top: 2%;
+    }
+    .app {
+        margin: 0 10em;
+    }
+    .profile-img {
+        display: block;
+        width: 350px;
+        height: 350px;
+        background: #e6e7ed;
+        border-radius: 50%;
+        border: 3px solid white;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0%;
+    }
+    .matt-milici {
+        font-size: 7rem;
         text-align: center;
     }
 }

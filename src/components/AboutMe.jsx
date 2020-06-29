@@ -7,11 +7,11 @@ function AboutMe() {
 	return (
 		<div className="about-me-div">
 			<h3 className="header-tags">About Me</h3>
-			<div className="aboutMe row">
-				<div className="column left collage">
-					<img className="cartoon" src={Images} alt="Girl in a jacket" />
+			<div className="">
+				<div className="collage">
+					<img className="cartoon" src={Images} alt="Cartoon of Matt" />
 				</div>
-				<div className="column right about-me ">
+				<div className="about-me">
 					<p className="about-me-description">Hey, What's up!</p>
 					<p className="about-me-description">
 						My name is Matt Milici and welcome to my personal site!

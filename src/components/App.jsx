@@ -5,6 +5,7 @@ import Note from "./Note";
 import AboutMe from "./AboutMe";
 import Resume from "./Resume";
 import AnimatedText from "./AnimatedText";
+import ContactMe from "./contact-me";
 
 function App() {
 	return (
@@ -13,7 +14,8 @@ function App() {
 			<AnimatedText />
 			<AboutMe />
 			<Resume />
-			<Footer />
+			<ContactMe />
+			{/* <Footer /> */}
 		</div>
 	);
 }

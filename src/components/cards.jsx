@@ -12,7 +12,7 @@ function WorkCard(props) {
 					<i>{props.time}</i>
 				</p>
 			</div>
-			<div className="clearfix jobDescription">
+			<div className="clearfix">
 				<p className="color">{props.jobDescription}</p>
 			</div>
 		</div>

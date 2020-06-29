@@ -7,7 +7,7 @@ import EducationExperiences from "./Education-Detail";
 
 function Resume() {
 	return (
-		<div className="row">
+		<div className="row resume">
 			<div className="column">
 				<div>
 					<h1 className="header-tags">Work Experience</h1>

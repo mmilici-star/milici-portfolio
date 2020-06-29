@@ -11,7 +11,7 @@ function AboutMe() {
 				<img className="profile-img" src={Images} alt="Girl in a jacket" />
 			</div>
 			<div className="column animated-text">
-				<h1 className="matt-milici"> Matt Milici</h1>
+				<h1 className="matt-milici">Matt Milici</h1>
 				<p className="im-a">
 					I am a{" "}
 					<Typical
