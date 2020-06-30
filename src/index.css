@@ -67,11 +67,12 @@ header {
 
 /* ----------- Work Experience Card ------------ */
 
+.testing {
+    width: 50%;
+}
+
 .work-experience-div {
-    position: relative;
     margin-bottom: 10%;
-    clear: both;
-    overflow: auto;
 }
 
 .color {
@@ -109,7 +110,6 @@ header {
     font-size: 1.8rem;
     clear: both;
     width: 95%;
-    overflow: hidden;
 }
 
 
@@ -234,7 +234,6 @@ p {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .Card {
@@ -242,8 +241,9 @@ p {
 }
 
 .column {
-    flex: 50%;
+    width: 50%;
     padding: 20px;
+    display: flex;
 }
 
 .workcolumn {

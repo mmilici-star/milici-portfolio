@@ -7,11 +7,10 @@ import EducationExperiences from "./Education-Detail";
 
 function Resume() {
 	return (
-		<div className="row resume">
-			<div className="column">
+		<div className="">
+			<h1 className="header-tags">Work Experience</h1>
+			<div className="testing1">
 				<div>
-					<h1 className="header-tags">Work Experience</h1>
-
 					{workExperiences.map((workExperience) => {
 						return (
 							<WorkCard
@@ -24,7 +23,7 @@ function Resume() {
 					})}
 				</div>
 			</div>
-			<div className="column">
+			<div className="">
 				<div>
 					<h1 className="header-tags">Education</h1>
 
@@ -44,25 +43,3 @@ function Resume() {
 	);
 }
 export default Resume;
-
-{
-	/* <Card
-						name={contacts[0].name}
-						img={contacts[0].imgURL}
-						tel={contacts[0].phone}
-						email={contacts[0].email}
-						jobDescription={contacts[0].jobDescription}
-					/>
-					<Card
-						name={contacts[1].name}
-						img={contacts[1].imgURL}
-						tel={contacts[1].phone}
-						email={contacts[1].email}
-					/>
-					<Card
-						name={contacts[2].name}
-						img={contacts[2].imgURL}
-						tel={contacts[2].phone}
-						email={contacts[2].email}
-					/> */
-}
